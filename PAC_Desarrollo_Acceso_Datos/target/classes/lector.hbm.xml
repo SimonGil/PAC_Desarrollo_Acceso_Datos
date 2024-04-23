@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="data_model.Lector" table="lector" catalog="biblioteca">
+	<id name="idLector">
+		<column name="id_lector"/>
+		<generator class="increment"/>
+	</id>
+	<property name="nombre"/>
+	<property name="apellidos"/>
+	<property name="email"/>
+	<property name="fechaNacimiento" type="java.time.LocalDate">
+		<column name="fecha_nacimiento"/>
+	</property>
+	</class>
+</hibernate-mapping>

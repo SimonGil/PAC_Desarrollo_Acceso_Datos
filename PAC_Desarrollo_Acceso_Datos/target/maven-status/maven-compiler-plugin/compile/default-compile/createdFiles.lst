@@ -1,0 +1,9 @@
+data_access_object\LibroDAO.class
+data_model\Prestamo.class
+app\Main.class
+data_access_object\LectorDAO.class
+data_model\Libro.class
+data_model\Lector.class
+data_access_object\PrestamoDAO.class
+data_access_object\EntidadDAO.class
+app\BibliotecaService.class
